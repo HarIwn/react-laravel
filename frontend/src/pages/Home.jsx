@@ -31,7 +31,7 @@ export default function Home() {
                     </div>
                     <p>{post.body}</p>
                 </div>
-            )) : <p>There are no post.</p>}
+            )) : <p className="text-center mt-4">There are no post.</p>}
         </>
     );
 }
